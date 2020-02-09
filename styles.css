@@ -14,17 +14,24 @@ body {
 
 button {
    font-family: 'Roboto Condensed', sans-serif;
-   font-size: 4vw;
+   font-size: 3vw;
    padding: 1vw 3vw;
    background-color: #EAE8FF;
+   width: 15vw;
+
+   transition: 0.3s all;
 }
 
 button:focus {
    outline: none;
 }
 
-button:hover {
+button:enabled:hover {
    cursor: pointer;
+   background-color: #3D405B;
+   transition: 0.3s;
+   color: #EAE8FF;
+   border-color: #3D405B;
 }
 
 button:disabled {
@@ -38,6 +45,7 @@ button:disabled {
    flex-direction: column;
    justify-content: center;
    align-items: center;
+   border-radius: 3px;
 
 }
 
@@ -49,9 +57,6 @@ button:disabled {
 
    text-align: center;
    font-family: 'Orbitron', sans-serifs;
-
-   position: relative;
-   left: -0.5vw;
 }
 
 .digits div {
