@@ -1,2 +1,2 @@
 # Digital-Timer
-https://karavil.github.io/Digital-Timer/
+https://digital-timer-practice.netlify.com/
